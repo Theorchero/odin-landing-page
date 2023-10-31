@@ -1,0 +1,86 @@
+/* Removing Links & Bullet styles */
+body a {
+  text-decoration: none !important;
+  color: inherit;
+}
+
+/* Setting background of entire page, overrided as needed */
+
+body {
+  background-color: #1f2937;
+}
+
+/*  */
+
+/* .container {
+   display: flex; 
+} */
+
+.header {
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: space-between;
+  background-color: #1f2937;
+  align-items: flex-start;
+  height: 150px;
+}
+
+.header-links {
+  text-decoration: none;
+  display: flex;
+
+  justify-content: flex-end;
+  margin-top: 35px;
+  gap: 8px;
+  color: #e5e7eb;
+  font-size: 18px;
+}
+
+.header h2 {
+  font-size: 24px;
+  color: #f9faf8;
+  padding: 12px;
+}
+
+.top-side {
+  height: 200px;
+  background-color: #1f2937;
+  /* background-color: red; */
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.top-side-1 {
+  font-size: 24px;
+  font-weight: extra-bold;
+  color: #f9faf8;
+  width: 400px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#smallertext {
+  font-size: 18px;
+}
+
+.top-side-2 {
+  display: flex;
+  height: 200px;
+  width: 400px;
+  background-color: lightgrey;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  margin-left: 35px;
+  /* background-color: red; */
+}
+
+.bottom-side {
+  margin-top: 200px;
+  display: flex;
+  /* flex-wrap: wrap; */
+  background-color: blue;
+}
